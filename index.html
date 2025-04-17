@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Memory Game For You | Priya </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="game.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+</head>
+<body>
+    s
+   <!-- Background Music -->
+   <audio src="images/audio5.mp3" id="linkmp3"></audio>
+  
+   <!-- Overlay -->
+   <div class="overlay"><div id="loveIn" class="blocklove"></div></div>
+   
+   <!-- Wallpaper -->
+   <div id="bodyblur">
+     <img src="images/image4.jpg" id="wallpaper"/>
+     <!--<div id="thisblur"></div>-->
+   </div>
+   
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div id="stiker1" class="scale0 stiker">
+                    <img src="images/image7.jpg" />
+                </div>
+                <h1 id="teks1" class="scale0 quicksand" style="font-size: 22px;">Hello There 🫢<br><br> >>>>
+                </h1>
+            </div>
+
+            <div class="swiper-slide">
+                <div id="stiker2" class="scale0 stiker">
+                    <img src="images/image5.jpg" />
+                </div>
+                <h1 id="teks2" class="scale0 quicksand" style="font-size: 20px;">I Have Something For You 😝<br><br> >>>></h1>
+            </div>
+
+            <div class="swiper-slide">
+                
+                <!-- Memory Game -->
+                <div class="main-card">
+                  <h1 id="teks3" class="scale0 quicksand" style="font-size: 20px;">Try to Solve<br><i class="pink">this Memory Game</i>! 😆<br><p>match 2 same colour of heart</p></h1>
+                  <div class="game-board">
+                    <div class="card" data-emoji="💖"></div>
+                    <div class="card" data-emoji="💙"></div>
+                    <div class="card" data-emoji="🤍"></div>
+                    <div class="card" data-emoji="💗"></div>
+                
+                    <div class="card" data-emoji="💛"></div>
+                    <div class="card" data-emoji="🤍"></div>
+                    <div class="card" data-emoji="💚"></div>
+                    <div class="card" data-emoji="🩷"></div>
+                
+                    <div class="card" data-emoji="💜"></div>
+                    <div class="card" data-emoji="💗"></div>
+                    <div class="card" data-emoji="💙"></div>
+                    <div class="card" data-emoji="💛"></div>
+                
+                    <div class="card" data-emoji="💜"></div>
+                    <div class="card" data-emoji="🩷"></div>
+                    <div class="card" data-emoji="💖"></div>
+                    <div class="card" data-emoji="💚"></div> <!--onclick="endGame()"-->
+                  </div>
+                </div>
+                
+                <!-- When Completed -->
+                <div id="stiker4" class="abs scale0 stiker" style="margin-top:70px">
+                    <img id="stikerAkhir1" src="images/image2.jpg" />
+                    <img id="stikerAkhir2" class="sembunyi" src="images/image3.jpg" />
+        
+                    <img id="stikerAkhir100" class="sembunyi" src="images/b4.png" />
+                </div>
+                <div id="scroll-container" class="blocktext scale0 abs">
+                    <h1 id="teks4" class="quicksand" style="font-size: 18px;font-weight:400"><b style="font-size:22px;font-weight:700;">Yay!! 🥳</b><br><br>I want to tell you something 🫣<br><br>Wait a moment~ 😋</h1>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Bullet Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    
+    <!-- Box elements animation -->
+    <div>
+        <div class="swrapper">
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <a href="https://prayu12345.github.io/lastbd/"><button id="nextPageBtn" style="display:none;position:fixed;bottom:20px;left:50%;transform:translateX(-50%);padding:10px 20px;font-size:16px;border:none;border-radius:8px;background:#FF6F91;color:white;cursor:pointer;z-index:999;">Next</button></a>
+        </div>
+        
+    </div>
+    
+
+    <div id="copy">
+      <p class="text-center text-white text-sm">#birthdayPriya <a
+        href="https://www.instagram.com/aae__ayushh__/?igsh=MnJ4amt3ZzZpbHVy#">@ayush</a></p>
+      </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
